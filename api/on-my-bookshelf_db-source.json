@@ -1,0 +1,78 @@
+{
+  "books": [
+    {
+      "user_id_owner": 2,
+      "title": "Gigi",
+      "author": "Colette",
+      "private": "true",
+      "read_status": "reading",
+      "rating": null,
+      "book_status": "bookshelf",
+      "user_id_borrower": 3,
+      "book_id": 1
+    },
+    {
+      "user_id_owner": 1,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "private": "false",
+      "read_status": "read",
+      "rating": 4,
+      "book_status": "loaned",
+      "user_id_borrower": 4,
+      "book_id": 2
+    },
+    {
+      "user_id_owner": 1,
+      "title": "The Years",
+      "author": "Annie Ernaux",
+      "private": "false",
+      "read_status": "reading",
+      "rating": null,
+      "book_status": "bookshelf",
+      "user_id_borrower": null,
+      "book_id": 3
+    },
+    {
+      "user_id_owner": 3,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "private": "false",
+      "read_status": "read",
+      "rating": 4,
+      "book_status": "loaned",
+      "user_id_borrower": 2,
+      "book_id": 4
+    }
+  ],
+  "users": [
+    {
+      "last_name": "Leblanc",
+      "first_name": "Alix",
+      "book_id_borrowed": null,
+      "book_id_loaned": 2,
+      "user_id": 1
+    },
+    {
+      "last_name": "Michaud",
+      "first_name": "Genevieve",
+      "book_id_borrowed": 4,
+      "book_id_loaned": 3,
+      "user_id": 2
+    },
+    {
+      "last_name": "Labonte",
+      "first_name": "Damien",
+      "book_id_borrowed": 1,
+      "book_id_loaned": 4,
+      "user_id": 3
+    },
+    {
+      "last_name": "Belanger",
+      "first_name": "Gaby",
+      "book_id_borrowed": 2,
+      "book_id_loaned": null,
+      "user_id": 4
+    }
+  ]
+}
