@@ -35,11 +35,13 @@ Sample `book` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
-| `user_id` | number | The ID of the user resource to which this book is assigned |
+| `user_id_owner` | number | The ID of the user resource to which this book is assigned |
 | `title` | string | The title of the book |
 | `author` | string | The author of the book  |
 | `private` | ***Discuss with SME***  | ***Discuss with SME*** |
 | `read_status` | string | `reading` (currently reading) or `read` (finished reading)  | 
+| `rating` | ***Discuss with SME*** | user rating of the book |
+| `book_status` | string | the status of the book: either `loaned` or on `bookshelf` |
 | `user_id_borrower` | number | The unique record ID fo the borrower  |
 | `book_id` | number | The unique record ID of the book |
 
