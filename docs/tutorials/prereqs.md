@@ -10,7 +10,7 @@
 
 ## Specific to using the Service
 
-* Fork of the `on-my-bookshelf` repository (repo). **Location in GitHub**: [on-my-bookshelf](https://github.com/davkow/on-my-bookshelf)
+* Fork of the `on-my-bookshelf` repository (repo). **Location in GitHub**: [on-my-bookshelf](https://github.com/davkow/on-my-bookshelf/tree/feature-1)
 * Current copy of the database file. It is available after syncing your fork.
 
 * Current/LTS version of [node.js](https://nodejs.org/en)
@@ -31,7 +31,7 @@
    2. ``sudo npm install -g json-server``
 
 ## Test your development system
-1. As already listed above under the heading [Specific to using the Service](#specific-to-using-the-service), make sure to create a fork of the ``on-my-bookshelf`` repo. **Location in GitHub**: [on-my-bookshelf](https://github.com/davkow/on-my-bookshelf)
+1. As already listed above under the heading [Specific to using the Service](#specific-to-using-the-service), make sure to create a fork of the ``on-my-bookshelf`` repo. **Location in GitHub**: [on-my-bookshelf](https://github.com/davkow/on-my-bookshelf/tree/feature-1)
 
 
 1. Create and checkout a test branch of your fork of the ``on-my-bookshelf`` repo. 
