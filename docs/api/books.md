@@ -33,26 +33,34 @@ Sample `book` resource
 }
 ```
 
-| Property name | Type | Description |
-| ------------- | ----------- | ----------- |
-| `user_id_owner` | number | The ID of the user resource to which this book is assigned |
-| `title` | string | The title of the book |
-| `author` | string | The author of the book  |
-| `private` | ***Discuss with SME***  | ***Discuss with SME*** |
-| `read_status` | string | `reading` (currently reading) or `read` (finished reading)  | 
-| `rating` | ***Discuss with SME*** | user rating of the book |
-| `book_status` | string | the status of the book: either `loaned` or on `bookshelf` |
-| `user_id_borrower` | number | The unique record ID fo the borrower  |
-| `book_id` | number | The unique record ID of the book |
+| Property name | Type | Required | Description |
+| ------------- | ----------- | ----------- | ---|
+| `user_id_owner` | integer | yes | ID of the user who owns the book. Derived from the `user_id` of the User object for the owner. |
+| `title` | string | yes | Title of the book. |
+| `author` | string | yes | Author of the book. |
+| `private` | boolean | no | Indicates if the book is private or not. Possible values are `true` or `false`. |
+| `read_status` | string or null | no | Current reading status of the book. Possible values are one of: `read`, `reading`, `toread`, or `null`.  | 
+| `rating` | integer or null | no  | Rating given to the book by owner. Possible values can be an integer from `1` through `5`, or `null`. | 
+| `book_status` | string | no | Status of the book. Possible values are one of: `bookshelf`, `borrowed`, or `loaned`. |
+| `user_id_borrower` | integer or null | no | ID of the user who borrowed the book. Derived from the `user_id` of the User object for the borrower. |
+| `book_id` | integer | yes | ID of the book. |
 
 ## Operations
 
 The `book` resource supports these operations.
 
-## GET (READ)
+### GET (READ)
 
-## POST (CREATE)
+* [Get all books](books-get-all-books)
 
-## PATCH (UPDATE)
+### POST (CREATE)
 
-## DELETE
+* [Create a new book](books-create-a-new-book.md)
+
+### PATCH (UPDATE)
+
+* Update a book property
+
+### DELETE
+
+* [Delete a book](books-delete-book.md)
