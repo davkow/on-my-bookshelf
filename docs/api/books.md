@@ -51,7 +51,7 @@ The `book` resource supports these operations.
 
 ### GET (READ)
 
-* [Get all books](books-get-all-books)
+* [Get all books](books-get-all-books.md)
 
 ### POST (CREATE)
 
