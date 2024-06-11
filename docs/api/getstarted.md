@@ -73,4 +73,4 @@ After completing set up - ***including*** creating and checking out a test branc
 
 ## Next steps 
 
-After successful completion of the set up and making a first API call, you are ready to do more things with the service. A good place to start is reading the [Overview](../index.md), which includes links to tutorials and the API reference docs.
+After successful completion of the set up and making a first API call, you are ready to do more things with the service. A good place to start is reading [on-my-bookshelf service API](../index.md), which includes links to tutorials and the API reference docs.
