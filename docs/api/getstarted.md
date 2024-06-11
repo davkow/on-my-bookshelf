@@ -17,11 +17,11 @@ You are already enrolled and can continue working with the service.
 * **Are new to the service:**<br>
   There are commonly used tools/appplications you may have already have installed, including GitHub, Postman, node.js, json-server, and Homebrew (MacOS only). 
   
-  To confirm if you have everything installed, and for the complete step-by-step instructions for set up (on both MacOs and Micorosoft Windows) see [Prerequisites](tutorials/prereqs.md).
+  To confirm if you have everything installed, and for the complete step-by-step instructions for set up (on both MacOs and Micorosoft Windows) see [Prerequisites](../tutorials/prereqs.md).
 
 ## Make a first API call
 
-After completing set up (**including** creating and checking out a test branch of your fork as covered in step 1 of [Test your development system](tutorials/preqs/#test-your-development-system)) you can try making a first request to to list all the books.
+After completing set up - ***including*** creating and checking out a test branch of your fork as covered in step 1 of [Test your development system](../tutorials/preqs/#test-your-development-system) - you can try making a first request to to list all the books.
 
 ### Steps
 1. Open Postman.

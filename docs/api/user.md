@@ -50,7 +50,7 @@ The `user` resource supports these operations.
 
 ### PATCH (UPDATE)
 
-* Update a user property
+* [Update a user property](users-update-a-user-property.md)
 
 ### DELETE
 

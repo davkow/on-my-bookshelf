@@ -23,7 +23,7 @@ Start using the service by completing set up and making a first API call, which 
 You can learn how to do common tasks with the on-my-bookshelf Service. 
 
 **Before** starting any tutorial, you need to first set up a development system. Complete instructions:<br> 
-[Prerequisites for using the on-my-bookshelf Service](tutorial/prereqs.md)
+[Prerequisites for using the on-my-bookshelf Service](tutorials/prereqs.md)
 
 ### List of tutorials
 - [Get a list of books for a user](tutorials/get-books-for-a-user.md)

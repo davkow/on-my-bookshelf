@@ -35,7 +35,7 @@ Instructions: [Forking a repository](https://docs.github.com/en/pull-requests/co
 ## Test your development system
 1. Create and checkout a test branch of your fork of the ``on-my-bookshelf`` repo. 
 
-   &lt;Your `GitHub repo workspace`&gt; is the directory that contains your fork of the `on-my-bookshelf` repo.
+   &lt;`your GitHub repo workspace`&gt; is the directory that contains your fork of the `on-my-bookshelf` repo.
 
     ```shell
     cd <your GitHub repo workspace>

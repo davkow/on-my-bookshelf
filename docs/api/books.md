@@ -59,7 +59,7 @@ The `book` resource supports these operations.
 
 ### PATCH (UPDATE)
 
-* Update a book property
+* [Update a book property](books-update-a-book-property.md)
 
 ### DELETE
 
