@@ -4,7 +4,7 @@ layout: page
 
 # Update a book property
 
-The Patch request updates a book property, but does not change other parameters in the [`book`](user.md) object.
+The Patch request updates a book property, but does not change other parameters in the [`book`](books.md) object.
 
 **Important:** With the on-my-bookshelf service running and the Postman app open, you need to **first** run a GET request with the URL `{sever_url}/users` (or `http://localhost:3000/users`) to locate the unique identifier (`id`) of the book you want to update. Make sure to then include the correct `id` to run a PATCH request to change a book property. 
 
