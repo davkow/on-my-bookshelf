@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Tutorial: Get books for a user
+# Tutorial: Get a list of books for a user
 
 This tutorial shows you how to get a list of books associated with a specific user in the on-my-bookshelf service.
 
@@ -12,9 +12,11 @@ Expect this tutorial to take about 10 minutes to complete.
 
 Make sure to complete the [Prerequisites for using the on-my-bookshelf Service](prereqs.md) on the development system you use for the tutorial.
 
+This tutorial assumes you have set the `server_url` variable in Postman to `http://localhost:3000`. If you are **not** using variables in Postman, replace all occurrences of \{\{server_url\}\} in these examples with `http://localhost:3000`. For more information on using environments and variables in Postman, see [Using Variables inside Postman](https://blog.postman.com/using-variables-inside-postman-and-collection-runner/).
+
 ## Retrieve books for a specific user
 
-Retrieving tasks for a specific user from the service requires sending a `GET` request to the appropriate endpoint with the ID of a user.
+Retrieving books for a specific user from the service requires sending a `GET` request to the appropriate endpoint with the ID of a user.
 
 To retreive books for a specific user:
 
@@ -28,8 +30,8 @@ To retreive books for a specific user:
 1. Open the Postman app on your desktop.
 1. Create a new request with the following values:
     - **METHOD**: GET
-    - **URL**: `{{server_url}}/books?user_id_owner=<1>`<br>
-        Replace `<>` with the ID of the user of the books you want to retrieve.<br> 
+    - **URL**: `{{server_url}}/books?user_id_owner=< >`<br>
+        Replace `< >` with the ID of the user of the books you want to retrieve.<br> 
         **Example**: For the user ``"user_id_owner": 1``, the URL is: `{{server_url}}/books?user_id_owner=1`
     - **Headers**:
         - `Content-Type: application/json`
@@ -69,7 +71,12 @@ To retreive books for a specific user:
     ]
     ```
 
-## Next steps
+This completes the tuorial for getting books for a user.
 
-After doing this tutorial in Postman, you might like to repeat it in your favorite programming language. To do this, adapt the values from the tutorial to the properties and arguments that the language uses to
-make REST API calls.
+## Other tutorial topics
+
+ - [Tutorial: Search for a user by email, name, or user ID](search-for-a-user-by-email.md)
+
+ - [Tutorial: Add a new user](add-a-new-user.md)
+
+ - [Tutorial: Add a new book](add-a-new-book.md)

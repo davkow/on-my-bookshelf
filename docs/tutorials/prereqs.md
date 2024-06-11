@@ -10,8 +10,10 @@
 
 ## Specific to using the Service
 
-* Fork of the `on-my-bookshelf` repository (repo). **Location in GitHub**: [on-my-bookshelf](https://github.com/davkow/on-my-bookshelf/tree/feature-1)
-* Current copy of the database file. It is available after syncing your fork.
+* Fork of the [`on-my-bookshelf`](https://github.com/davkow/on-my-bookshelf) repository (repo).<br>
+Instructions: [Forking a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
+
+* Current copy of the database file: `on-my-bookshelf_db-source.json`. It is available *after* syncing your fork. Location: `on-my-bookshelf` (repo) &gt; `api` folder/directory. 
 
 * Current/LTS version of [node.js](https://nodejs.org/en)
 
@@ -31,9 +33,6 @@
    2. ``sudo npm install -g json-server``
 
 ## Test your development system
-1. As already listed above under the heading [Specific to using the Service](#specific-to-using-the-service), make sure to create a fork of the ``on-my-bookshelf`` repo. **Location in GitHub**: [on-my-bookshelf](https://github.com/davkow/on-my-bookshelf/tree/feature-1)
-
-
 1. Create and checkout a test branch of your fork of the ``on-my-bookshelf`` repo. 
 
    &lt;Your `GitHub repo workspace`&gt; is the directory that contains your fork of the `on-my-bookshelf` repo.
@@ -51,13 +50,15 @@
     If your development system is installed correctly, you should see
     the service start and display the URL of the service: `http://localhost:3000`.
 
-2. Make a test call to the service.
+1. Make a test call to the service using curl.
 
     ```shell
     curl http://localhost:3000/users
     ```
+   **Note:** [curl](https://curl.se/) is installed by default on the macOS and [Microsoft Windows 10 & 11](https://curl.se/windows/microsoft.html). 
 
-3. If the service is running correctly, you should see a list of users from the service, such as in this example.
+
+1. If the service is running correctly, you should see a list of users from the service, such as in this example.
 
     ```js
     [
