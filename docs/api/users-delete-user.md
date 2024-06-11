@@ -1,14 +1,20 @@
 # Delete a user 
 
-Removes the user you identify in the `user_id` parameter from the user resource, if the user exists.
+Removes (deletes) the user you identify in the `user_id` parameter from the user resource, if the user exists.
+
+Important: With the on-my-bookshelf service running and the Postman app open, you need to first run a GET request with the URL {sever_url}/users (or http://localhost:3000/users) to locate the unique identifier (`id`) of the user you want to delete. Make sure to then include the correct `id` to run the DELETE request.
 
 ## URL
 
 ```shell
-{DELETE} {server_url}/users/{user_id}
+{server_url}/users/{id}
 ```
 
-## Params
+## METHOD
+
+DELETE
+
+## Parameters
 
 | Parameter name | Type   | Description |
 | -------------- | ------ | ------------ |
@@ -25,8 +31,20 @@ Removes the user you identify in the `user_id` parameter from the user resource,
 None
 
 ## Return body
-None
 
+The response returns a user matching the specified `id`, and deletes the object in the database.
+
+```
+{
+    "last_name": "Leblanc",
+    "first_name": "Alix",
+    "email": "a.leblanc@example.com",
+    "book_id_borrowed": null,
+    "book_id_loaned": 2,
+    "user_id": 1,
+    "id": "750b"
+}
+```
 ## Return status
 
 | Status value | Return status | Description |

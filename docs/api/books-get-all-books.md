@@ -4,7 +4,7 @@ layout: page
 
 # Get all books
 
-Returns an array of [`books`](user.md) objects that contain all users that have registered with the service.
+Returns an array of [`books`](books.md) objects that contain all users that have registered with the service.
 
 ## URL
 
@@ -12,7 +12,11 @@ Returns an array of [`books`](user.md) objects that contain all users that have 
 {server_url}/books
 ```
 
-## Params
+## Method
+
+GET
+
+## Paramaters
 
 None
 
@@ -28,7 +32,8 @@ None
 ## Return body
 
 ```js
-[   {
+[   
+    {
       "user_id_owner": 2,
       "title": "Gigi",
       "author": "Colette",

@@ -21,7 +21,7 @@ You are already enrolled and can continue working with the service.
 
 ## Make a first API call
 
-After completing set up - ***including*** creating and checking out a test branch of your fork as covered in step 1 of [Test your development system](../tutorials/preqs/#test-your-development-system) - you can try making a first request to to list all the books.
+After completing set up - ***including*** creating and checking out a test branch of your fork as covered in step 1 of [Test your development system](../tutorials/prereqs/#test-your-development-system) - you can try making a first request to to list all the books.
 
 ### Steps
 1. Open Postman.

@@ -4,14 +4,17 @@ layout: page
 
 # Create a new book
 
-Creates a new [`book`](book.md) for a user of the on-my-bookshelf service.
-You must specify the required properties for the book. 
+Creates a [`book`](books.md) object in the database. The request body contains the details for the new book. You must specify the required properties for the book. 
 
 ## URL
 
 ```shell
-{POST} {server_url}/books/
+{server_url}/books
 ```
+
+## Method
+
+POST
 
 ## Request headers
 
@@ -23,7 +26,7 @@ Must include a `Content-type` header to specify JSON.
 
 ## Request body
 
-In the request body, specify a JSON representation of the [`book`](user.md) object. This table lists the properties that are required when you create a book. 
+In the request body, specify a JSON representation of the [`book`](books.md) object. This table lists the properties that are required when you create a book. 
 
 | Property          | Type   | Required | Description                | Notes |
 | ----------------- | ------ | -------- | -------------------------- | ----- |
@@ -40,9 +43,9 @@ The POST body should look something like this. You can change the values of each
 ```js
 [
     {
-        "user_id_owner": "5",
-        "title": "Infinite Jest",
-        "author": "David Foster Wallace",
+        "user_id_owner": "7",
+        "title": "The Great Gatsy",
+        "author": "F. Scott Fitzgerald"
     }
 ]
 ```
@@ -51,17 +54,17 @@ The POST body should look something like this. You can change the values of each
 
 Example of the respsonse. 
 
-The `title` and `author` were changed - creating a new book - which is reflected in the response. The `user_id` is automatically generated when a new book is created.
+The title and author are same as what was used in the **Request body**. The `id` is automatically generated when the new book object is created. 
 
 **Example**
 
 ```js
 [
     {
+        "id": "92r"
         "user_id_owner": "7",
-        "title": "Fight Club",
-        "author": "Chuck Palahniuk",
-        "user_id": "15"
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald"
     }
 ]
 ```

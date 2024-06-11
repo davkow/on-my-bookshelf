@@ -12,7 +12,11 @@ Returns an array of [`user`](user.md) objects that contain all users that have r
 {server_url}/users
 ```
 
-## Params
+## Method
+
+GET
+
+## Paramaters
 
 None
 
