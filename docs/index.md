@@ -42,5 +42,5 @@ When running a local test, the `{server_url}` is
 generally `http://localhost:3000`.
 
 * [`user` resource](api/user.md)
-* [`books` resource](api/books.md)
+* [`book` resource](api/books.md)
 * [Handling errors](api/error-handling.md)
