@@ -29,9 +29,13 @@ To search for a user by email, name, or user ID from the service requires sendin
 1. Open the Postman app on your desktop.
 1. Create a new request with the following values:
    * **METHOD**: GET
-   * **URL**: `{server_url}/users?email=<  >` | Replace `<  >` with the email of the user.
+   * **URL**: `{server_url}/users?email=<  >`
+     
+     Replace `<  >` with the email of the user.
     
-     **Example**: For the email for the user Alix Leblanc, the URL is: `{server_url}/users?email=a.leblanc@example.com`
+     **Example**: For the email for the user Alix Leblanc, the URL is: 
+     
+     `{server_url}/users?email=a.leblanc@example.com`
    * **Headers**: `Content-Type`: `application/json`
 
      **Note:** The email address is case sensitive.

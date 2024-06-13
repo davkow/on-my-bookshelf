@@ -30,8 +30,13 @@ To retreive books for a specific user:
 1. Open the Postman app on your desktop.
 1. Create a new request with the following values:
    * **METHOD**: GET
-   * **URL**: `{server_url}/books?user_id_owner=< >` | Replace `< >` with the ID of the user of the books you want to retrieve.
-   * **Example**: For the user ``"user_id_owner": 1``, the URL is: `{server_url}/books?user_id_owner=1`
+   * **URL**: `{server_url}/books?user_id_owner=< >`
+     
+     Replace `< >` with the ID of the user of the books you want to retrieve.
+     
+   * **Example**: For the user ``"user_id_owner": 1``, the URL is: 
+   
+     `{server_url}/books?user_id_owner=1`
    * **Headers**: `Content-Type`: `application/json`
 
 1. Click  **Send** to make the request.
