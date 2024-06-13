@@ -26,11 +26,11 @@ Must include a `Content-type` header to specify JSON.
 
 In the request body, specify a JSON representation of the [`user`](user.md) object. This table lists the properties that are required when you create a user. 
 
-| Property       | Type   | Required | Description                | Notes |
+| Property name       | Type   | Required | Description                | Notes |
 | -------------- | ------ | -------- | -------------------------- | ----- |
-| last_name      | string | yes      | Last name of the user.     |       | 
-| first_name     | string | yes      | First name of the user.    |       |
-| email          | string | yes      | Email address of the user. | A unique email is required |
+| `last_name`      | string | yes      | Last name of the user.     |       | 
+| `first_name`     | string | yes      | First name of the user.    |       |
+| `email`          | string | yes      | Email address of the user. | A unique email is required |
 
 ## Sample request
 

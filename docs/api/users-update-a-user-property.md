@@ -30,16 +30,14 @@ Must include a `Content-type` header to specify JSON.
 
 This table lists the properties you can update.
 
-| Property       | Type   | Required | Description                | 
+| Property name      | Type   | Required | Description                | 
 | -------------- | ------ | -------- | -------------------------- | 
-| last_name      | string | yes      | Last name of the user.     |       
-| first_name     | string | yes      | First name of the user.    |       
-| email          | string | yes      | Email address of the user. | 
+| `last_name`      | string | yes      | Last name of the user.     |       
+| `first_name`     | string | yes      | First name of the user.    |       
+| `email`          | string | yes      | Email address of the user. | 
 | `book_id_borrowed` | integer or null | no | ID of the book borrowed by the user, if any. Derived from the `book_id` of the Book object for the borrowed book. |
 | `book_id_loaned` | integer or null | no | ID of the book loaned by the user, if any. Derived from the `book_id` of the Book object for the loaned book.  |
 | `user_id` | integer | yes | ID of the user. |
-
-
 
 ## Sample request
 

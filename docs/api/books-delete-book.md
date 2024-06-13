@@ -16,8 +16,8 @@ DELETE
 
 ## Parameters
 
-| Parameter name | Type   | Description |
-| -------------- | ------ | ------------ |
+| Property name  | Type    | Description                         |
+| -------------- | ------- | ----------------------------------- |
 | `book_id`      | integer | The record ID of the book to delete |
 
 ## Request headers

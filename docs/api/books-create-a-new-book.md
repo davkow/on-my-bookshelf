@@ -28,11 +28,11 @@ Must include a `Content-type` header to specify JSON.
 
 In the request body, specify a JSON representation of the [`book`](books.md) object. This table lists the properties that are required when you create a book. 
 
-| Property          | Type   | Required | Description                | Notes |
-| ----------------- | ------ | -------- | -------------------------- | ----- |
-| `user_id_owner`   | integer | yes | The ID of the user who owns the book. Derived from the `user_id` of the User object for the owner. |
-| `title`           | string | yes | Title of the book. |
-| `author` | string | yes | Author of the book. |
+| Property name     | Type    | Required | Description                | 
+| ----------------- | ------- | -------- | -------------------------- | 
+| `user_id_owner`   | integer | yes      | The ID of the user who owns the book. Derived from the `user_id` of the User object for the owner. |
+| `title`           | string  | yes      | Title of the book.         |
+| `author`          | string  | yes      | Author of the book.        |
 
 ## Sample request
 

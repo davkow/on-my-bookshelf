@@ -16,7 +16,7 @@ DELETE
 
 ## Parameters
 
-| Parameter name | Type   | Description |
+| Property name | Type   | Description |
 | -------------- | ------ | ------------ |
 | `user_id`      | integer | The record ID of the user to delete |
 

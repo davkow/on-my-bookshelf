@@ -12,7 +12,7 @@ Expect this tutorial to take about 10 minutes to complete.
 
 Make sure to complete the [Prerequisites for using the on-my-bookshelf Service](prereqs.md) on the development system you use for the tutorial.
 
-This tutorial assumes you have set the `server_url` variable in Postman to `http://localhost:3000`. If you are **not** using variables in Postman, replace all occurrences of \{\{server_url\}\} in these examples with `http://localhost:3000`. For more information on using environments and variables in Postman, see [Using Variables inside Postman](https://blog.postman.com/using-variables-inside-postman-and-collection-runner/).
+This tutorial assumes you have set the `server_url` variable in Postman to `http://localhost:3000`. If you are **not** using variables in Postman, replace all occurrences of `{server_url}` in these examples with `http://localhost:3000`. For more information on using environments and variables in Postman, see [Using Variables inside Postman](https://blog.postman.com/using-variables-inside-postman-and-collection-runner/).
 
 ## Retrieve books for a specific user
 
@@ -29,12 +29,10 @@ To retreive books for a specific user:
 
 1. Open the Postman app on your desktop.
 1. Create a new request with the following values:
-    - **METHOD**: GET
-    - **URL**: `{{server_url}}/books?user_id_owner=< >`<br>
-        Replace `< >` with the ID of the user of the books you want to retrieve.<br> 
-        **Example**: For the user ``"user_id_owner": 1``, the URL is: `{{server_url}}/books?user_id_owner=1`
-    - **Headers**:
-        - `Content-Type: application/json`
+   * **METHOD**: GET
+   * **URL**: `{server_url}/books?user_id_owner=< >` | Replace `< >` with the ID of the user of the books you want to retrieve.
+   * **Example**: For the user ``"user_id_owner": 1``, the URL is: `{server_url}/books?user_id_owner=1`
+   * **Headers**: `Content-Type`: `application/json`
 
 1. Click  **Send** to make the request.
 1. Review the response body, which should contain an array of books associated with the specified user. Each book object should include many details, including `title` and `author`. 

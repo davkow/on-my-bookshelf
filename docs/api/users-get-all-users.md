@@ -28,7 +28,6 @@ None
 
 None
 
-
 ## Return body
 
 ```js
