@@ -30,7 +30,7 @@ You can add a new user in the on-my-bookshelf service. To do this, `POST` a new 
 1. Create a new request with the following values:
    * **METHOD**: POST
    * **URL**: `{server_url}/users`
-   * **Headers**: `Content-Type`: `application/json`
+   * **Headers**: Key: `Content-Type`, Value: `application/json`
    * **Request body**: Add values for each property:
    
      **Example**

@@ -30,7 +30,7 @@ You can add a new book in the on-my-bookshelf service. To do this, `POST` a new 
 1. Create a new request with the following values:
    * **METHOD**: POST
    * **URL**: `{server_url}/books`
-   * **Headers**: `Content-Type`: `application/json`
+   * **Headers**: Key: `Content-Type`, Value: `application/json`
    * **Request body**: Add values for each desired property for a new book. The **Example** includes: `user_id_owner`, `title`, and `author`:
 
      **Example**

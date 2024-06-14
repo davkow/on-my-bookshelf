@@ -36,7 +36,7 @@ To search for a user by email, name, or user ID from the service requires sendin
      **Example**: For the email for the user Alix Leblanc, the URL is: 
      
      `{server_url}/users?email=a.leblanc@example.com`
-   * **Headers**: `Content-Type`: `application/json`
+   * **Headers**: Key: `Content-Type`, Value: `application/json`
 
      **Note:** The email address is case sensitive.
 

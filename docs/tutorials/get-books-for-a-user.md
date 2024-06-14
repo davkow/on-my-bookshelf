@@ -37,7 +37,7 @@ To retreive books for a specific user:
    * **Example**: For the user ``"user_id_owner": 1``, the URL is: 
    
      `{server_url}/books?user_id_owner=1`
-   * **Headers**: `Content-Type`: `application/json`
+   * **Headers**: Key: `Content-Type`, Value: `application/json`
 
 1. Click  **Send** to make the request.
 1. Review the response body, which should contain an array of books associated with the specified user. Each book object should include many details, including `title` and `author`. 
