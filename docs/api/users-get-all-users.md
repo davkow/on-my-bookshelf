@@ -26,8 +26,6 @@ None
 | -------------- | ------ | ------------ |------------ |
 | Basic Auth | A security checkpoint that requires transmission of a username and password with every request. | Required | Basic authentication is a simple authentication scheme that is built into the HTTP protocol. |
 
-None
-
 ## Request body
 
 None

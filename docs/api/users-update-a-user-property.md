@@ -20,8 +20,6 @@ PATCH
 
 ## Request headers
 
-Must include a `Content-type` header to specify JSON.
-
 | Header name | Description | Required | Value |
 | -------------- | ------ | ------------ |------------ |
 | Content-type | The format of the data to be posted. | Required | application/json |
