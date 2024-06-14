@@ -18,11 +18,11 @@ POST
 
 ## Request headers
 
-Must include a `Content-type` header to specify JSON.
-
 | Header name | Description | Required | Value |
 | -------------- | ------ | ------------ |------------ |
 | Content-type | The format of the data to be posted. | Required | application/json |
+| Basic Auth | A security checkpoint that requires transmission of a username and password with every request. | Required | Basic authentication is a simple authentication scheme that is built into the HTTP protocol. |
+
 
 ## Request body
 
@@ -75,3 +75,7 @@ The title and author are same as what was used in the **Request body**. The `id`
 | 201 | Created | User data created successfully. |
 | 500 | Internal server Error | Invalid JSON. |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+## Related information
+
+* [Security](quickstart.md#security)

@@ -25,6 +25,8 @@ Must include a `Content-type` header to specify JSON.
 | Header name | Description | Required | Value |
 | -------------- | ------ | ------------ |------------ |
 | Content-type | The format of the data to be posted. | Required | application/json |
+| Basic Auth | A security checkpoint that requires transmission of a username and password with every request. | Required | Basic authentication is a simple authentication scheme that is built into the HTTP protocol. |
+
 
 ## Request body
 
@@ -78,3 +80,7 @@ Example of the respsonse. The email address changed.
 | 200 | OK | Standard response for a successful HTTP request. |
 | 500 | Internal server Error | Invalid JSON. |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+
+## Related information
+
+* [Security](quickstart.md#security)

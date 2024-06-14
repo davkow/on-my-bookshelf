@@ -22,6 +22,10 @@ None
 
 ## Request headers
 
+| Header name | Description | Required | Values |
+| -------------- | ------ | ------------ |------------ |
+| Basic Auth | A security checkpoint that requires transmission of a username and password with every request. | Required | Basic authentication is a simple authentication scheme that is built into the HTTP protocol. |
+
 None
 
 ## Request body
@@ -60,3 +64,6 @@ None
 | 404 | Not found | The requested resource could not be found. |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
+## Related information
+
+* [Security](quickstart.md#security)

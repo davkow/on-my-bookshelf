@@ -4,9 +4,11 @@ layout: page
 
 # on-my-bookshelf Service API
 
-The on-my-bookshelf Service is a RESTful API service for managing a virtual bookshelf. This API can be integrated with applications that allow people to track their books. It can also be used as part of a more social lending library application where you can also track lending and borrowing of books.
+The on-my-bookshelf Service is a RESTful API service for managing a virtual bookshelf. 
 
-This is a mock API designed to simulate the REST interface of an imaginary service.
+This API can be integrated with applications that allow people to track their books. It can also be used as part of a more social lending library application where you can also track lending and borrowing of books. Developers can add their own additional features and apply their own branding.
+
+**Important:** This is a mock API designed to simulate the REST interface of an imaginary service.
 
 ## Getting started
 
@@ -29,7 +31,7 @@ Main docs page: [on-my-bookshelf service API](index.md)
 
 ## Reference
 
-For detailed descriptions of the service's resources, refer to the [API reference docs](index.md#api-reference-docs), which include separate sections for [user resource](api/user.md) and [book resource](api/books.md).
+For detailed descriptions of the service's resources, refer to the [API reference docs](index.md#api-reference-docs), which include separate sections for [`user` resource](api/user.md) and [`book` resource](api/books.md).
 
 ## Troubleshooting and Support
 

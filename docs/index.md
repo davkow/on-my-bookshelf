@@ -15,7 +15,7 @@ Get a comprehensive understanding of the service by reading the [Overview](overv
 
 ## Get started
 
-Start using the service by completing set up and making a first API call, which are both covered in the [Get started](api/getstarted.md).
+Start using the service by completing set up and making a first API call, which are both covered in the [Quickstart](api/quickstart.md).
 
 
 ## Tutorials
