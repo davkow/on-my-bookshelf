@@ -14,7 +14,7 @@ The Patch request updates a book property, but does not change other parameters 
 {server_url}/books/{id}
 ```
 
-## METHOD
+## Method
 
 PATCH
 

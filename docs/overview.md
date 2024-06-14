@@ -29,7 +29,7 @@ Main docs page: [on-my-bookshelf service API](index.md)
 
 ## Reference
 
-For detailed descriptions of the service's resources, refer to the [API reference docs](index.md#api-reference-docs), which include separate sections for [user resource](api/user.md) and [books resource](api/books.md).
+For detailed descriptions of the service's resources, refer to the [API reference docs](index.md#api-reference-docs), which include separate sections for [user resource](api/user.md) and [book resource](api/books.md).
 
 ## Troubleshooting and Support
 

@@ -11,8 +11,13 @@ You must specify the required properties for the user.
 ## URL
 
 ```shell
-{POST} {server_url}/users/
+{server_url}/users/
 ```
+
+## Method
+
+POST
+
 
 ## Request headers
 

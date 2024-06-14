@@ -10,7 +10,7 @@ Important: With the on-my-bookshelf service running and the Postman app open, yo
 {server_url}/users/{id}
 ```
 
-## METHOD
+## Method
 
 DELETE
 

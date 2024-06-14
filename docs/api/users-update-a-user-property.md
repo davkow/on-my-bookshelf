@@ -14,7 +14,7 @@ The Patch request updates a user property, but does not change other parameters 
 {server_url}/users/{id}
 ```
 
-## METHOD
+## Method
 
 PATCH
 
