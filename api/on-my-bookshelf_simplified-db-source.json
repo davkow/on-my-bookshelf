@@ -1,0 +1,66 @@
+{
+  "books": [
+    {
+      "user_id": 2,
+      "title": "Gigi",
+      "author": "Colette",
+      "read_status": "reading",
+      "rating": null,
+      "book_status": "bookshelf",
+      "id": 1
+    },
+    {
+      "user_id": 1,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "read_status": "read",
+      "rating": 4,
+      "book_status": "loaned",
+      "id": 2
+    },
+    {
+      "user_id": 1,
+      "title": "The Years",
+      "author": "Annie Ernaux",
+      "read_status": "reading",
+      "rating": null,
+      "book_status": "bookshelf",
+      "id": 3
+    },
+    {
+      "user_id": 3,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "read_status": "read",
+      "rating": 4,
+      "book_status": "loaned",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "last_name": "Leblanc",
+      "first_name": "Alix",
+      "email": "a.leblanc@example.com",
+      "id": 1
+    },
+    {
+      "last_name": "Michaud",
+      "first_name": "Genevieve",
+      "email": "g.michaud@example.com",
+      "id": 2
+    },
+    {
+      "last_name": "Labonte",
+      "first_name": "Damien",
+      "email": "d.labonte@example.com",
+      "id": 3
+    },
+    {
+      "last_name": "Belanger",
+      "first_name": "Gaby",
+      "email": "g.belanger@example.com",
+      "id": 4
+    }
+  ]
+}
