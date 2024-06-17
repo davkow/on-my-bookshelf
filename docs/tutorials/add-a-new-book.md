@@ -23,7 +23,7 @@ You can add a new book in the on-my-bookshelf service. To do this, `POST` a new 
 
     ```shell
     cd <your-github-workspace>/my-bookshelf-service/api
-    json-server -w on-my-bookshelf_db-source.json
+    json-server -w on-my-bookshelf_simplified-db-source.json
     ```
 
 1. Open the Postman app on your desktop.
@@ -31,13 +31,13 @@ You can add a new book in the on-my-bookshelf service. To do this, `POST` a new 
    * **METHOD**: POST
    * **URL**: `{server_url}/books`
    * **Headers**: Key: `Content-Type`, Value: `application/json`
-   * **Request body**: Add values for each desired property for a new book. The **Example** includes: `user_id_owner`, `title`, and `author`:
+   * **Request body**: Add values for each desired property for a new book. The **Example** includes: `user_id`, `title`, and `author`:
 
      **Example**
 
      ```json 
      {
-        "user_id_owner": "7",
+        "user_id": "7",
         "title": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",  
      }
@@ -46,7 +46,7 @@ You can add a new book in the on-my-bookshelf service. To do this, `POST` a new 
 1. Click  **Send** to make the request.
 1. Watch for the response body, which should look something like the **Example** below. 
 
-    The`user_id_owner`, `title`, and `author` are the same as in the  **Request body**, and the response includes the newly created `id` for the new book. 
+    The`user_id`, `title`, and `author` are the same as in the  **Request body**, and the response includes the newly created `id` for the new book. 
 
     **Example**
 
@@ -65,7 +65,7 @@ This completes the tutorial of adding a new book.
 
 - [Tutorial: Get a list of books for a user](get-books-for-a-user.md)
 
-- [Tutorial: Search for a user by email, name, or user ID](search-for-a-user-by-email.md)
+- [Tutorial: Search for a user by email, name, or ID](search-for-a-user-by-email.md)
 
 - [Tutorial: Add a new user](add-a-new-user.md)
 

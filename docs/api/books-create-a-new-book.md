@@ -30,7 +30,7 @@ In the request body, specify a JSON representation of the [`book`](books.md) obj
 
 | Property name     | Type    | Required | Description                | 
 | ----------------- | ------- | -------- | -------------------------- | 
-| `user_id_owner`   | integer | yes      | The ID of the user who owns the book. Derived from the `user_id` of the User object for the owner. |
+| `user_id`   | integer | yes      | The ID of the user who owns the book. |
 | `title`           | string  | yes      | Title of the book.         |
 | `author`          | string  | yes      | Author of the book.        |
 
@@ -41,13 +41,11 @@ The POST body should look something like this. You can change the values of each
 **Example**
 
 ```js
-[
-    {
-        "user_id_owner": "7",
-        "title": "The Great Gatsy",
-        "author": "F. Scott Fitzgerald"
-    }
-]
+{
+    "user_id": "7",
+    "title": "The Great Gatsy",
+    "author": "F. Scott Fitzgerald"
+}
 ```
 
 ## Return body
@@ -59,14 +57,12 @@ The title and author are same as what was used in the **Request body**. The `id`
 **Example**
 
 ```js
-[
-    {
-        "id": "92r"
-        "user_id_owner": "7",
-        "title": "The Great Gatsby",
-        "author": "F. Scott Fitzgerald"
-    }
-]
+{
+    "id": "9af1"
+    "user_id": "7",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+}
 ```
 ## Return status
 

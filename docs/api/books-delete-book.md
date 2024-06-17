@@ -1,8 +1,6 @@
 # Delete a book
 
-Removes (deletes) the book you identify in the `book_id` parameter from the book resource, if the book exists.
-
-**Important:** With the on-my-bookshelf service running and the Postman app open, you need to **first** run a GET request with the URL `{sever_url}/users` (or `http://localhost:3000/users`) to locate the unique identifier (`id`) of the book you want to delete. Make sure to then include the correct `id` to run the DELETE request.
+Removes (deletes) the book you identify in the `id` parameter from the book resource, if the book exists.
 
 ## URL
 
@@ -18,7 +16,7 @@ DELETE
 
 | Property name  | Type    | Description                         |
 | -------------- | ------- | ----------------------------------- |
-| `book_id`      | integer | The record ID of the book to delete |
+| `id`      | integer | The record ID of the book to delete |
 
 ## Request headers
 
@@ -40,16 +38,13 @@ The response returns a book matching the specified `id`, and deletes the object 
 
 ```
 {
-    "user_id_owner": 2,
+    "user_id: 2,
     "title": "Gigi",
     "author": "Colette",
-    "private": "true",
     "read_status": "reading",
     "rating": null,
     "book_status": "bookshelf",
-    "user_id_borrower": 3,
-    "book_id": 1,
-    "id": "0e92"
+    "id": "1"
 }
 ```
 

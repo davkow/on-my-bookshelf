@@ -6,7 +6,7 @@ layout: page
 
 The on-my-bookshelf Service is a RESTful API service for managing a virtual bookshelf. 
 
-This API can be integrated with applications that allow people to track their books. It can also be used as part of a more social lending library application where you can also track lending and borrowing of books. Developers can add their own additional features and apply their own branding.
+This API can be integrated with applications that allow people to track their books. 
 
 **Important:** This is a mock API designed to simulate the REST interface of an imaginary service.
 

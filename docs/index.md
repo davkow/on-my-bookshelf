@@ -7,7 +7,7 @@ layout: page
 This is a mock API to simulate the REST interface of an
 imaginary service. 
 
-This API can be integrated with applications that allow people to track their books. It can also be used as part of a more social lending library application where you can also track lending and borrowing of books.
+This API can be integrated with applications that allow people to track their books. 
 
 ## Overview
 
@@ -29,7 +29,7 @@ You can learn how to do common tasks with the on-my-bookshelf Service.
 - [Get a list of books for a user](tutorials/get-books-for-a-user.md)
 - [Add a new book](tutorials/add-a-new-book.md)
 - [Add a new user](tutorials/add-a-new-user.md)
-- [Search for a user by email, name, or user ID](tutorials/search-for-a-user-by-email.md)
+- [Search for a user by email, name, or ID](tutorials/search-for-a-user-by-email.md)
 
 ## API reference docs
 

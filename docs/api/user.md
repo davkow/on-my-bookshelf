@@ -21,9 +21,7 @@ Sample `user` resource
     "last_name": "Leblanc",
     "first_name": "Alix",
     "email": "a.leblanc@example.com",  
-    "book_id_borrowed": null,
-    "book_id_loaned": 2,
-    "user_id": 1,
+    "id": 1
 }
 ```
 
@@ -32,9 +30,7 @@ Sample `user` resource
 | `last_name` | string | yes  | Last name of the user. |
 | `first_name` | string | yes | First name of the user. | 
 | `email`      | string | yes | Email address of the user. | 
-| `book_id_borrowed` | integer or null | no | ID of the book borrowed by the user, if any. Derived from the `book_id` of the Book object for the borrowed book. |
-| `book_id_loaned` | integer or null | no | ID of the book loaned by the user, if any. Derived from the `book_id` of the Book object for the loaned book.  |
-| `user_id` | integer | yes | ID of the user. |
+| `id` | integer | yes | ID of the user. |
 
 ## Operations
 

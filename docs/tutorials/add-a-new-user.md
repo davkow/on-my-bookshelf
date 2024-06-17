@@ -23,7 +23,7 @@ You can add a new user in the on-my-bookshelf service. To do this, `POST` a new 
 
     ```shell
     cd <your-github-workspace>/my-bookshelf-service/api
-    json-server -w on-my-bookshelf_db-source.json
+    json-server -w on-my-bookshelf_simplified-db-source.json
     ```
 
 1. Open the Postman app on your desktop.
@@ -61,7 +61,7 @@ This completes the tutorial of adding a new user.
 
 ### Other tutorial topics
 
-- [Tutorial: Search for a user by email, name, or user ID](search-for-a-user-by-email.md)
+- [Tutorial: Search for a user by email, name, or ID](search-for-a-user-by-email.md)
 
 - [Tutorial: Add a new book](add-a-new-book.md)
 

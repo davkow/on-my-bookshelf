@@ -1,6 +1,6 @@
-# Tutorial: Search for a user by email, name, or user ID
+# Tutorial: Search for a user by email, name, or ID
 
-This tutorial shows you how to search for (get) a user by email, name, or user ID in the on-my-bookshelf service.
+This tutorial shows you how to search for (get) a user by email, name, or ID in the on-my-bookshelf service.
 
 Expect this tutorial to take about 15 minutes to complete.
 
@@ -15,7 +15,7 @@ If you are **not** using variables in Postman, replace all occurrences of \{\{se
 
 ## Search for a user by email, name, or user ID
 
-To search for a user by email, name, or user ID from the service requires sending a `GET` request to the appropriate endpoint.
+To search for a user by email, name, or ID from the service requires sending a `GET` request to the appropriate endpoint.
 
 ### To search for a user by email:
 
@@ -23,7 +23,7 @@ To search for a user by email, name, or user ID from the service requires sendin
 
     ```shell
     cd <your-github-workspace>/my-bookshelf-service/api
-    json-server -w on-my-bookshelf_db-source.json
+    json-server -w on-my-bookshelf_simplified_db-source.json
     ```
 
 1. Open the Postman app on your desktop.
@@ -51,12 +51,8 @@ To search for a user by email, name, or user ID from the service requires sendin
         "last_name": "Leblanc",
         "first_name": "Alix",
         "email": "a.leblanc@example.com",
-        "book_id_borrowed": null,
-        "book_id_loaned": 2,
-        "user_id": 1,
-        "id": "b17d"
+        "id": "1"
         }
-
     ]
     ```
 
@@ -76,9 +72,9 @@ Follow the steps above for [To search for a user by email](#to-search-for-a-user
 
   **Example:** `{{server_url}}/users?first_name=Alix`
 
-- URL: Search for a user by user ID: `{{server_url}}/users?user_id=<>`<br>
+- URL: Search for a user by ID: `{{server_url}}/users?id=< >`
 
-  **Example** `{{server_url}}/users?user_id=1`
+  **Example** `{{server_url}}/users?id=1`
 
 **Note:** The last name and first name are case sensitive.
 

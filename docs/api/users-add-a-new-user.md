@@ -44,32 +44,28 @@ The POST body should look something like this. You can change the values of each
 **Example**
 
 ```js
-[
-    {
-        "last_name": "Smith",
-        "first_name": "John",
-        "email": "j.smith@example.com",
-    }
-]
+{
+    "last_name": "Smith",
+    "first_name": "John",
+    "email": "j.smith@example.com",
+}
 ```
 
 ## Return body
 
 Example of the respsonse. 
 
-The `first_name`, `last_name` and `email` were changed in the **Request body** to reflect adding a new user. The response includes the id of the new user (`user_id`). The `user_id` is automatically generated when the user is created.
+The `first_name`, `last_name` and `email` were included in the **Request body** to reflect adding a new user. The response includes the `id` of the new user. The `id` is automatically generated when the new user is created.
 
 **Example**
 
 ```js
-[
-    {
-        "user_id": "e82c",
-        "last_name": "Johnson",
-        "first_name": "Steve",
-        "email": "j.johnson@example.com"
-    }
-]
+{
+    "id": "1d1b"
+    "last_name": "Smith",
+    "first_name": "John",
+    "email": "j.smith@example.com"
+}
 ```
 ## Return status
 

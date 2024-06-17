@@ -38,16 +38,12 @@ None
         "last_name": "Leblanc",
         "first_name": "Alix",
         "email": "a.leblanc@example.com",
-        "book_id_borrowed": null,
-        "book_id_loaned": 2,
         "user_id": 1
     },
     {
         "last_name": "Michaud",
         "first_name": "Genevieve",
         "email": "g.michaud@example.com",
-        "book_id_borrowed": 4,
-        "book_id_loaned": 3,
         "user_id": 2
     },
     ...

@@ -24,19 +24,19 @@ To retreive books for a specific user:
 
     ```shell
     cd <your-github-workspace>/my-bookshelf-service/api
-    json-server -w on-my-bookshelf_db-source.json
+    json-server -w on-my-bookshelf_simplified_db-source.json
     ```
 
 1. Open the Postman app on your desktop.
 1. Create a new request with the following values:
    * **METHOD**: GET
-   * **URL**: `{server_url}/books?user_id_owner=< >`
+   * **URL**: `{server_url}/books?user_id=< >`
      
      Replace `< >` with the ID of the user of the books you want to retrieve.
      
-   * **Example**: For the user ``"user_id_owner": 1``, the URL is: 
+   * **Example**: For the user ``"user_id": 1``, the URL is: 
    
-     `{server_url}/books?user_id_owner=1`
+     `{server_url}/books?user_id=1`
    * **Headers**: Key: `Content-Type`, Value: `application/json`
 
 1. Click  **Send** to make the request.
@@ -47,29 +47,24 @@ To retreive books for a specific user:
     ```json
     [
         {
-        "user_id_owner": 1,
+        "user_id": 1,
         "title": "Anna Karenina",
         "author": "Leo Tolstory",
-        "private": "false",
         "read_status": "read",
         "rating": 4,
         "book_status": "loaned",
-        "user_id_borrower": 4,
-        "book_id": 2,
-        "id": "81c1"
+        "id": "2"
        },
 
        {
-       "user_id_owner": 1,
+       "user_id": 1,
        "title": "The Years",
        "author": "Annie Ernaux",
        "private": "false",
        "read_status": "reading",
        "rating": null,
        "book_status": "bookshelf",
-       "user_id_borrower": null,
-       "book_id": 3,
-       "id": "da2d"
+       "id": "3"
        }
     ]
     ```
@@ -78,7 +73,7 @@ This completes the tuorial for getting books for a user.
 
 ## Other tutorial topics
 
- - [Tutorial: Search for a user by email, name, or user ID](search-for-a-user-by-email.md)
+ - [Tutorial: Search for a user by email, name, or ID](search-for-a-user-by-email.md)
 
  - [Tutorial: Add a new user](add-a-new-user.md)
 

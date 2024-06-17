@@ -36,26 +36,22 @@ None
 ```js
 [   
     {
-      "user_id_owner": 2,
+      "user_id": 2,
       "title": "Gigi",
       "author": "Colette",
-      "private": "true",
       "read_status": "reading",
       "rating": null,
       "book_status": "bookshelf",
-      "user_id_borrower": 3,
-      "book_id": 1
+      "id": 1
     },
     {
-      "user_id_owner": 1,
+      "user_id": 1,
       "title": "Anna Karenina",
       "author": "Leo Tolstoy",
-      "private": "false",
       "read_status": "read",
       "rating": 4,
       "book_status": "loaned",
-      "user_id_borrower": 4,
-      "book_id": 2
+      "id": 2
     },
     ...
 ]

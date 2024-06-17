@@ -13,7 +13,7 @@
 * Fork of the [`on-my-bookshelf`](https://github.com/davkow/on-my-bookshelf) repository (repo).<br>
 Instructions: [Forking a repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
 
-* Current copy of the database file: `on-my-bookshelf_db-source.json`. It is available *after* syncing your fork. Location: `on-my-bookshelf` (repo) &gt; `api` folder/directory. 
+* Current copy of the database file: `on-my-bookshelf_simplified-db-source.json`. It is available *after* syncing your fork. Location: `on-my-bookshelf` (repo) &gt; `api` folder/directory. 
 
 * Current/LTS version of [node.js](https://nodejs.org/en)
 
@@ -44,7 +44,7 @@ Instructions: [Forking a repository](https://docs.github.com/en/pull-requests/co
     cd on-my-bookshelf
     git checkout -b tutorial-test
     cd api
-    json-server -w on-my-bookshelf_db-source.json
+    json-server -w on-my-bookshelf_simplified-db-source.json
     ```
 
     If your development system is installed correctly, you should see
@@ -66,17 +66,13 @@ Instructions: [Forking a repository](https://docs.github.com/en/pull-requests/co
             "last_name": "Leblanc",
             "first_name": "Alix",
             "email": "a.leblanc@example.com",
-            "book_id_borrowed": null,
-            "book_id_loaned": 2,
-            "user_id": 1
+            "id": 1
         },
         {
             "last_name": "Michaud",
             "first_name": "Genevieve",
             "email": "g.michaud@example.com",
-            "book_id_borrowed": 4,
-            "book_id_loaned": 3,
-            "user_id": 2
+            "id": 2
         },
         ...
     ```
