@@ -4,10 +4,9 @@ layout: page
 
 # on-my-bookshelf service API
 
-This is a mock API to simulate the REST interface of an
-imaginary service. 
+This is a mock API to simulate the REST interface of an imaginary service. 
 
-This API can be integrated with applications that allow people to track their books. 
+This API can be integrated with applications that allow people to track their books. Developers can add their own additional features and apply their own branding.
 
 ## Overview
 
@@ -16,7 +15,6 @@ Get a comprehensive understanding of the service by reading the [Overview](overv
 ## Get started
 
 Start using the service by completing set up and making a first API call, which are both covered in the [Quickstart](api/quickstart.md).
-
 
 ## Tutorials
 

@@ -42,7 +42,7 @@ This table lists the properties you can update.
 The PATCH body should look something like this. You can update the value of a property. 
 
 **Example**<br>
-This example updates the value of the title from `Gigi` to `The Vagabond`.
+This example updates the value of the `"title"` from `Gigi` to `The Vagabond`.
 
 ```js
 {
@@ -52,7 +52,7 @@ This example updates the value of the title from `Gigi` to `The Vagabond`.
 
 ## Return body
 
-Example of the respsonse. The title changed. 
+Example of the respsonse. The `"title"` changed to `"The Vagabond"`. 
 
 **Example**
 
