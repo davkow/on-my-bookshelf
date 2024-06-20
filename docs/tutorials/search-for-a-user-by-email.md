@@ -11,7 +11,7 @@ Make sure to complete the [Prerequisites for using the on-my-bookshelf Service](
 **Recommendation:** If you are using a fork of the on-my-bookshelf repo, create a new (working) branch to do this tutorial. This will help prevent a mistake from affecting your work in any another branch.   
 
 This tutorial assumes you have set the `server_url` variable in Postman to `http://localhost:3000`. 
-If you are **not** using variables in Postman, replace all occurrences of \{\{server_url\}\} in these examples with `http://localhost:3000`. For more information on using environments and variables in Postman, see [Using Variables inside Postman](https://blog.postman.com/using-variables-inside-postman-and-collection-runner/).
+If you are **not** using variables in Postman, replace all occurrences of `{server_url}` in these examples with `http://localhost:3000`. For more information on using environments and variables in Postman, see [Using Variables inside Postman](https://blog.postman.com/using-variables-inside-postman-and-collection-runner/).
 
 ## Search for a user by email, name, or user ID
 
@@ -60,7 +60,7 @@ To search for a user by email, name, or ID from the service requires sending a `
 
 This completes the tutorial of searching for a user by email.  
 
-### To search for a user by name or user ID
+### To search for a user by name or ID
 
 Follow the steps above for [To search for a user by email](#to-search-for-a-user-by-email), except modify the URL:
 

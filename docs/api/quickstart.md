@@ -17,7 +17,7 @@ You are already enrolled and can continue working with the service.
 * **Are new to the service:**<br>
   There are commonly used tools/appplications you may have already have installed, including GitHub, Postman, node.js, json-server, and Homebrew (MacOS only). 
   
-  To confirm if you have everything installed, and for the complete step-by-step instructions for set up (on both MacOs and Micorosoft Windows) see [Prerequisites](../tutorials/prereqs.md).
+  To confirm if you have everything installed, and for the complete step-by-step instructions for set up (on both MacOs and Microsoft Windows) see [Prerequisites](../tutorials/prereqs.md).
 
 ## Security
 
