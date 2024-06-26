@@ -17,7 +17,7 @@ Instructions: [Forking a repository](https://docs.github.com/en/pull-requests/co
 
 * Current/LTS version of [node.js](https://nodejs.org/en)
 
-* **MacOS only**: Install [Homebrew](https://brew.sh/):
+* **macOS only**: Install [Homebrew](https://brew.sh/):
   1. Open Terminal.
   2. Paste code and press enter, and then follow the instructions.
      
@@ -26,7 +26,7 @@ Instructions: [Forking a repository](https://docs.github.com/en/pull-requests/co
      ```
 * Current version of [json-server](https://www.npmjs.com/package/json-server). 
 
-   **MacOS only**: 
+   **macOS only**: 
    Steps from the Terminal:
   
    1. ``brew install git node json-server``
