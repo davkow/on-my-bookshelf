@@ -1,7 +1,7 @@
-# on-my-bookshelf Documentation
+# on-my-bookshelf API
 
-A RESTful API service for managing a virtual bookshelf. Use to track your books: what you've read, lent out, and also add your own rating. This API can be integrated with applications that allow people to track their books. 
+This repository contains documentation for an imaginary RESTful API service created for [Specialization in API Documentation](https://www.pce.uw.edu/specializations/api-documentation), a program from the University of Washington Professional & Continuing Education.
 
-This is a mock API designed to simulate the REST interface of an imaginary service.
+Use to track your books: what you've read, lent out, and also add your own rating. This API can be integrated with applications that allow people to track their books. 
 
 For the API documentation, see [on-my-bookshelf API](https://davkow.github.io/on-my-bookshelf/)
