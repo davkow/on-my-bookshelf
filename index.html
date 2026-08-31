@@ -2,14 +2,104 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>On My Bookshelf API</title>
+  <title>on-my-bookshelf service API</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 2rem;
+      color: #24292f;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.25;
+    }
+
+    a {
+      color: #0969da;
+    }
+
+    main {
+      margin-bottom: 4rem;
+    }
+  </style>
 </head>
 <body>
   <main>
-    <h1>On My Bookshelf API</h1>
-    <p>An imaginary RESTful API service for managing a virtual bookshelf.</p>
-    <p>This project is hosted with GitHub Pages.</p>
+    <h1>on-my-bookshelf service API</h1>
+
+    <p>
+      This is a mock API to simulate the REST interface of an imaginary service.
+    </p>
+
+    <p>
+      This API can be integrated with applications that allow people to track their books.
+      Developers can add their own additional features and apply their own branding.
+    </p>
+
+    <h2>Overview</h2>
+
+    <p>
+      Get a comprehensive understanding of the service by reading the
+      <a href="docs/overview.html">Overview</a>.
+    </p>
+
+    <h2>Get started</h2>
+
+    <p>
+      Start using the service by completing set up and making a first API call, which are
+      both covered in the
+      <a href="docs/api/quickstart.html">Quickstart</a>.
+    </p>
+
+    <h2>Tutorials</h2>
+
+    <p>
+      You can learn how to do common tasks with the on-my-bookshelf Service.
+    </p>
+
+    <p>
+      <strong>Before</strong> starting any tutorial, you need to first set up a development
+      system. Complete instructions:<br>
+      <a href="docs/tutorials/prereqs.html">
+        Prerequisites for using the on-my-bookshelf Service
+      </a>
+    </p>
+
+    <h3>List of tutorials</h3>
+
+    <ul>
+      <li><a href="docs/tutorials/get-books-for-a-user.html">Get a list of books for a user</a></li>
+      <li><a href="docs/tutorials/add-a-new-book.html">Add a new book</a></li>
+      <li><a href="docs/tutorials/add-a-new-user.html">Add a new user</a></li>
+      <li><a href="docs/tutorials/search-for-a-user-by-email.html">Search for a user by email, name, or ID</a></li>
+    </ul>
+
+    <h2>API reference docs</h2>
+
+    <p>
+      Detailed descriptions of the service's resources.
+    </p>
+
+    <p>
+      The API reference docs refer to a <code>{server_url}</code> when they refer to the URL
+      of a resource. The <code>{server_url}</code> value depends on the installation of the
+      service.
+    </p>
+
+    <p>
+      When running a local test, the <code>{server_url}</code> is generally
+      <code>http://localhost:3000</code>.
+    </p>
+
+    <ul>
+      <li><a href="docs/api/user.html"><code>user</code> resource</a></li>
+      <li><a href="docs/api/books.html"><code>book</code> resource</a></li>
+      <li><a href="docs/api/error-handling.html">Handling errors</a></li>
+    </ul>
   </main>
 </body>
 </html>
